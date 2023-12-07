@@ -1,0 +1,57 @@
+h1 {
+    color: #27aedb;
+    text-align: center;
+    }
+    
+
+button{
+    color: #27aedb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.bg-pink{
+	background-color:pink;
+}
+
+.todoForm {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    margin: auto;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid;
+}
+
+
+.allTodos {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 450px;
+    margin: auto;
+    padding: 0;
+}
+
+.list{
+    border-radius: 50px;
+    margin: 10px 0;
+    background-color: #5dadf8;
+    padding: 10px 20px;
+    display: flex;
+    width: 400px;
+    align-items: center;
+}  
+
+.todoText {
+    flex: 1;
+}
